@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Liraz Siri <liraz@turnkeylinux.org>
 Build-Depends:
  debhelper (>= 10),
- dh-python,
+ dh-python2 (>= 4.20201102+turnkey0),
  python-all (>= 2.6.6-3~),
 Homepage: https://github.com/boto/boto
 Standards-Version: 4.0.0
